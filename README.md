@@ -18,9 +18,10 @@ cert-prep/
 ## 🧾 Example Log Entry
 ```
 ## 2025-11-09
-- Messer 1.1–1.2 (Threats / Attacks)
-- Practice Qs: 22 / 27 correct
-- Focus: APT definitions, ransomware stages
+- Sections: 1.1 Security Controls; 1.2 CIA Triad (Messer SY0-701)
+- Practice: 22 / 27 correct
+- Focus for review: mapping control categories to examples; integrity mechanisms (hashing, digital signatures)
+
 ```
 
 ---
