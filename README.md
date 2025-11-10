@@ -4,3 +4,7 @@ This repository tracks daily progress toward key IT certifications — beginning
 Each log entry records topics studied, practice results, and focus areas for improvement.
 
 ## Structure
+cert-prep/
+├── SecurityPlus-StudyLog.md
+├── practice-scores.md
+└── Resources/
