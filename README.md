@@ -1,7 +1,7 @@
 # 🧠 Certification Prep
 
-This repository tracks daily progress toward key IT certifications — beginning with **CompTIA Security+ (SY0-701)**.  
-Each log entry records topics studied, practice results, and focus areas for improvement.
+This repository documents progress through key IT certifications — starting with **CompTIA Security+ (SY0-701)** and continuing with **MD-102: Microsoft Endpoint Administrator**.  
+Each log entry captures the topics studied, key concepts reviewed, and areas to reinforce.
 
 ---
 
@@ -9,7 +9,7 @@ Each log entry records topics studied, practice results, and focus areas for imp
 ```
 cert-prep/
  ├── SecurityPlus-StudyLog.md
- ├── practice-scores.md
+ ├── MD102-StudyLog.md
  └── Resources/
 ```
 
@@ -20,19 +20,19 @@ cert-prep/
 ## 2025-11-09
 - Messer 1.1–1.2 (Threats / Attacks)
 - Practice Qs: 22 / 27 correct
-- Weak: APT definitions, ransomware stages
+- Focus: APT definitions, ransomware stages
 ```
 
 ---
 
-## 🎯 Purpose
-- Maintain consistent GitHub activity (“green squares”)  
-- Build public proof of continuous learning  
-- Reinforce certification retention and discipline  
+## 🎯 Focus Areas
+- Build a strong foundation in security fundamentals  
+- Advance toward Microsoft endpoint and cloud administration  
+- Reinforce understanding through structured daily study  
 
 ---
 
-## 🔜 Upcoming Additions
-- Network+ and Azure Fundamentals tracking  
-- Flashcard exports  
-- Study summaries for recruiters  
+## 🔜 Next Steps
+- Complete Security+ coverage (Nov 2025 – Feb 2026)  
+- Begin MD-102 phase (Feb – Apr 2026)  
+- Transition to Azure Fundamentals (AZ-900) and SC-200 (Security Operations Analyst)  
