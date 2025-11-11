@@ -5,8 +5,8 @@
 
 ## 2025-11-10
 Topics: 1.3 Change Management; 1.4 Crypto (encrypting data, key exchange, encryption tech)
--Practice: 24 / 25 correct
--Notes:
--- Standard vs. Normal vs. Emergency: clear.
--- TLS flow locked in: asymmetric for key establishment → symmetric for data.
--- Hash vs. encrypt vs. HMAC distinctions are solid.
+- Practice: 24 / 25 correct
+- Notes:
+  - Standard vs. Normal vs. Emergency: clear.
+  - TLS flow locked in: asymmetric for key establishment → symmetric for data.
+  - Hash vs. encrypt vs. HMAC distinctions are solid.
