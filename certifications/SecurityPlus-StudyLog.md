@@ -27,3 +27,15 @@ Topics: 2.1-2.2 Threat Actors & Attack Vectors (threat actor types/motivations; 
   - BEC = impersonating exec for fraud; Whaling = targeting exec as victim
   - Threat actor pairing: Nation-state → APT/persistence; Script kiddie → pre-made tools
   - Solid on: vishing, smishing, pretexting, watering holes
+
+## 2025-11-14
+Topics: 2.3 Security Vulnerabilities (memory attacks; injection attacks; race conditions; system vulns; mobile/cloud/virtualization)
+- Practice: ExamCompass 75% → Custom drills 87% → EOL/EOS focus 90%
+- Notes:
+  - Memory attacks: Injection = process manipulation; Buffer overflow = boundary violation; DLL injection = library execution
+  - Critical distinctions: EOL = no free patches (paid extended possible); EOS = completely dead; Misconfiguration ≠ vulnerability
+  - XSS = malicious script in trusted site; CSRF = forge requests using victim's session (actually in 3.2)
+  - VM escape = breaking hypervisor boundary (real attack, not theoretical)
+  - Mobile: Sideloading (unofficial sources); Jailbreak (iOS); Root (Android)
+  - Solid on: SQL injection, buffer overflow, race conditions, zero-day concept
+  - Weak → Strong: EOL/EOS terminology, misconfiguration identification
