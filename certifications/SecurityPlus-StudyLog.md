@@ -39,3 +39,16 @@ Topics: 2.3 Security Vulnerabilities (memory attacks; injection attacks; race co
   - Mobile: Sideloading (unofficial sources); Jailbreak (iOS); Root (Android)
   - Solid on: SQL injection, buffer overflow, race conditions, zero-day concept
   - Weak → Strong: EOL/EOS terminology, misconfiguration identification
+
+## 2024-11-16
+Topics: 2.5 Security Techniques (segmentation/access control; mitigation techniques; hardening techniques)
+- Practice: Custom Quiz 80%
+- Notes:
+  - Segmentation: VLANs = logical separation; DMZ = isolated network zone; Microsegmentation = software-defined boundaries
+  - Hardening: Disable unnecessary services/ports = reduce attack surface; ≠ patching (which fixes vulnerabilities)
+  - Mitigation types: Patching = known vulnerabilities; Hardening = attack surface reduction
+  - Access controls barely touched in Messer 2.5 (more in other sections)
+  - Critical finding: Messer covers ~60% of exam content
+  - Solid on: Network segmentation, basic hardening concepts
+  - Weak → Need work: CompTIA terminology variations, vendor-specific implementations, legacy concepts not in Messer
+
