@@ -76,3 +76,27 @@ Topics: 3.1 Cloud and Network Infrastructures, Concepts and Considerations
   - Weaknesses:
     - IaaS vs PaaS vs SaaS differences → Create comparison chart
     - IaC security concerns → Research hardcoded credential risks
+
+## 2025-11-18
+Topics: 3.2 Secure Infrastructures, Intrusion Prevention and Network Appliances
+- Practice: 19/20 (95%)
+- Notes:
+  - Security Zones: Logical separation of networks based on use or section types:
+    - Untrusted / External v. Trusted / Internal
+    - DMZ (Demilitarized zone) - Perimeter network offers accessibility from the internet but is isolated from the internal network.
+  - Attack Surface: Total of all possible entry points for unauthorized access
+    - Goal: Minimize the surface size - audit code, block certain ports on the firewall, always monitor network traffic, who is entering the network and what applications are being used
+  - IPS v IDS - One prevents, one detects
+  - Failure Modes: Fail-Open and Fail-Closed
+  - Active Monitoring - Inline network setup, actively blocks / drop malicious traffic
+  - Passive Monitoring - Not inline (tap), data cannot be blocked in real time.
+  - Network Appliances
+    - Jump Server / Bastion Hosts: Device on the inside of the network that is accessible from the outside, must be hardened and secured
+    - Proxies: Various exist for different purposes (Forward Proxy, Reverse Proxy, NAT, Open)
+    - Load Balancers provide fault tolerance, TCP/SSL offloading, caching
+      - Active / Active: Servers are connected, active and being used by the load balancer
+      - Active / Passive: Some servers are active and working, if those fail, standby / passive servers will be ready to go.
+    - Sensors / Collectors
+      - Sensors: Collect data, statistics from traffic across network
+      - Collectors: The centralized database housing data collected by sensors.
+        - SIEM or Security Information and Event Manager: Consolidates, correlates and compares all of the collected data from a diverse group of devices into a single database
