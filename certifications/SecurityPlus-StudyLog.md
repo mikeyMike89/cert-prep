@@ -40,7 +40,7 @@ Topics: 2.3 Security Vulnerabilities (memory attacks; injection attacks; race co
   - Solid on: SQL injection, buffer overflow, race conditions, zero-day concept
   - Weak → Strong: EOL/EOS terminology, misconfiguration identification
 
-## 2024-11-16
+## 2025-11-16
 Topics: 2.5 Security Techniques (segmentation/access control; mitigation techniques; hardening techniques)
 - Practice: Custom Quiz 80%
 - Notes:
@@ -52,3 +52,27 @@ Topics: 2.5 Security Techniques (segmentation/access control; mitigation techniq
   - Solid on: Network segmentation, basic hardening concepts
   - Weak → Need work: CompTIA terminology variations, vendor-specific implementations, legacy concepts not in Messer
 
+## 2025-11-17
+Topics: 3.1 Cloud and Network Infrastructures, Concepts and Considerations
+- Practice: 17/20 correct (85%)
+- Notes:
+  - Cloud Models & Services: IaaS, PaaS, SaaS → Responsibility matrix defines who manages what (varies by provider and service model)
+    - Infrastructure as Code (IaC) - Infrastructure managed entirely through code/definition files
+    - Serverless - Server exists but customer doesn't manage it
+  - Architecture Types:
+    - Monolithic - Single large application; challenges with codebase size and change control
+    - Microservices - APIs connect independent services; provides scalability, resilience, and built-in containment
+  - Network Infrastructure:
+    - Physical isolation (air-gapped) vs logical isolation (VLANs)
+    - Software-Defined Networking (SDN) - Simplifies administration and troubleshooting
+    - On-premises vs cloud-based; centralized vs decentralized
+  - System Types:
+    - Virtualization vs containerization
+    - SCADA/ICS, RTOS, Embedded systems
+    - High availability considerations
+  - Key Distinctions:
+    - Scalability - Ability to scale resources up/down as needed
+    - Elasticity - Infrastructure automatically scales based on demand
+  - Weaknesses:
+    - IaaS vs PaaS vs SaaS differences → Create comparison chart
+    - IaC security concerns → Research hardcoded credential risks
