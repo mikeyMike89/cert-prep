@@ -100,3 +100,40 @@ Topics: 3.2 Secure Infrastructures, Intrusion Prevention and Network Appliances
       - Sensors: Collect data, statistics from traffic across network
       - Collectors: The centralized database housing data collected by sensors.
         - SIEM or Security Information and Event Manager: Consolidates, correlates and compares all of the collected data from a diverse group of devices into a single database
+
+## 2025-11-19
+Topics: 3.2 (continued) Port Security, Firewall Types and Secure Communications
+- Practice: 25/30 (83%) - Covering today's topics; 18/20 (90%) - Covering 3.2 overall
+- Notes:
+  - Port Security - Individual interfaces on a switch / wireless connections to AP
+  - EAP / 802.1X - Integrated to manage the authentication process for users/devices on the network
+    - Authentication Process:
+      - Supplicant (end user) => Authenticator (Switch / AP) =>  Authentication Server (RADIUS, TACACS+, Kerberos, LDAP)
+      - Remember: Authenticator (Switch/AP) = middleman only, Authentication Server makes the actual decision
+  - Firewalls
+    - Traditional network-based firewalls => Layer 4 => TCP/UDP port number
+    - NGFW => Layer 7 - Application based, doesn't rely on port numbers to make forwarding decisions
+    - UTM / Unified Threat Management - All-in-one security appliance
+      - Challenges: Operate Layer 4, so only look at port numbers; so many capabilities, potential performance problems
+    - Web Application Firewall
+      - Applies rules to HTTP/HTTPS conversations
+      - Compared to other firewalls: Looks at different traffic, makes different forwarding decisions
+      - Can NOT be the only firewall on the network
+  - VPNs / Virtual Private Networks
+    - Managed by a VPN Concentrator - Encryption/Decryption access device, often integrated into a firewall
+    - IPsec: Encrypts data => Adds IPsec headers/trailers + IP header
+      - Concentrator removes the extra IP header, IPsec headers/trailers, decrypts the packet
+      - AKA Site-to-site VPN, Always-on (almost)
+    - SSL/TLS VPN
+      - Same protocol used to encrypt web traffic (TCP port 443)
+      - Commonly used for remote access communication from a single device
+      - Software connects to a VPN concentrator
+      - On-demand or can be configured as always-on
+    - SD-WAN
+      - A WAN built for the cloud
+      - Can use multiple connections to intelligently route traffic based on what's fastest and most reliable at the moment.
+      - Can be built out dynamically
+    - SASE / Secure Access Service Edge
+       - Addressed the SD-WAN security gaps
+       - Combines networking and security functions into a single service
+       - Zero Trust / security functions close to the point of access / security inspection at every edge point
