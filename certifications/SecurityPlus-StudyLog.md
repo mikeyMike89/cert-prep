@@ -137,3 +137,45 @@ Topics: 3.2 (continued) Port Security, Firewall Types and Secure Communications
        - Addressed the SD-WAN security gaps
        - Combines networking and security functions into a single service
        - Zero Trust / security functions close to the point of access / security inspection at every edge point
+
+## 2025-11-23
+Topics: 3.3 Data Types and Classifications, States of and Protecting Data
+-  Practice: 35/40 (87%)
+-  Notes:
+   -  Data Types: Regulated, Trade Secrets & IP, Legal, Financial, Human v. non-human readable, proprietary, PII, PHI
+   -  Classifications:
+      - Sensitive: Things like IP, PII, or PHI
+      - Confidential: More sensitive, needs additional access
+      - Public/Unclassified: Info anyone should be able to view
+      - Private/Classified/Restricted: A bit more sensitive, might require an NDA
+      - Critical: Should always be accessible
+    - States of Data:
+      - Data at Rest: Data on a storage device
+        - Encryption and different rights/permissions to secure it
+      - Data in transit/motion: Data traversing the network/internet
+        - Protections are networked-based
+          - Firewall/IPS: Allows good traffic through, prevents anything unknown/unusual
+          - Transport Encryption
+            - TLS: Encrypt info going back and forth to a web server
+            - IPsec: Encrypt all traffic going across the network
+      - Data in Use: Data that's actively being used by system RAM, CPU registers and cache
+          - Attackers prefer to go after this data in this state
+            - It's decrypted/non-encrypted form
+            - Note: If data is in RAM but the process is no longer active and waiting to be overwritten, it's no longer data in use, but data at rest.
+      - Data Sovereignty: Keep in mind rules/laws of countries/regions where you store your data
+        - GDPR: Any data collected on EU citizens must be stored in the EU
+    - Protecting Data
+      - Use network location/geofencing to determine level of access or restrictions
+      - Encryption: Two-way with key
+      - Hashing: One way, can't reverse
+      - Obfuscation: Makes it difficult to read, but functional
+      - Masking: Hides parts (like blocking out numbers of a CC on a receipt except the last 4 digits)
+      - Tokenization: Replace with a temporary token that maps back to original
+      - Segmentation: Separate and store your data, makes it harder for the attacker compared to one large database
+      - Permission restrictions: Authenticate => Permissions (group or file based limits the data one particular user can access).
+-  Reminders:
+   - IP (Patents): Will become public, temporary protection via law
+   - Trade Secret: Never public, protection via secrecy
+   - Private/Restricted
+     - Often used for "Internal Use Only" materials
+     - Less sensitive than Confidential 
