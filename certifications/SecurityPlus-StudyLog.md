@@ -179,3 +179,23 @@ Topics: 3.3 Data Types and Classifications, States of and Protecting Data
    - Private/Restricted
      - Often used for "Internal Use Only" materials
      - Less sensitive than Confidential 
+
+## 2024-11-24
+Topics: Section 3.4: Resiliency and Recovery
+-  Practice Quiz: 17/20 (85%) - backup strategy questions need review
+-  Notes:
+  -  High availability (load balancing vs clustering)
+  -  Site types (hot/cold/warm, geographic dispersion)
+  -  Platform diversity & multi-cloud
+  -  Continuity of operations & capacity planning
+  -  Testing methods (tabletop, failover, simulation)
+  -  Backup strategies (onsite/offsite, frequency, encryption, replication, journaling)
+  -  Power (UPS, generators)
+-  Reminders:
+   -  Incremental vs differential backup distinction is critical for exam:
+    -  Incremental = changes since LAST backup (needs full chain to restore)
+    -  Differential = changes since LAST FULL backup (needs full + latest differential only)
+-  Next:
+  -  Section 4.1
+  -  Python #1: File operations
+  -  Lab: Firewall rules, DNS, TCP handshake (Week 2)
