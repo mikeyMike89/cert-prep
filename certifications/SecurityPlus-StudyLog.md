@@ -199,3 +199,21 @@ Topics: Section 3.4: Resiliency and Recovery
    - Section 4.1
      - Python #1: File operations
      - Lab: Firewall rules, DNS, TCP handshake (Week 2)
+
+## 2025-11-25
+Topics: Section 4.1 - Security Techniques: Baselines, Hardening, Wireless & Application Security
+-  Practice quiz: 20/20
+-  Notes
+   - Secure baselines (establish, deploy, maintain)
+   - Hardening targets (mobile, workstations, switches, routers, cloud, servers, ICS/SCADA, embedded systems, RTOS, IoT)
+   - Wireless installation (site surveys, heat maps)
+   - Mobile solutions (MDM, BYOD/COPE/CYOD, connection methods)
+   - Wireless security (WPA3, RADIUS, authentication protocols)
+   - Application security (input validation, secure cookies, static code analysis, code signing, sandboxing)
+-  Key clarification - WPA2 vs WPA3:
+   - WPA2's vulnerability: The 4-way handshake can be captured and brute-forced offline. Attacker grabs the handshake and cracks it on their own hardware.
+   - WPA3's fix: SAE (Simultaneous Authentication of Equals) - both sides prove they know the password without transmitting anything crackable offline. Captured exchanges can't be brute-forced later.
+-  Encryption acronyms:
+   - GCMP = Galois/Counter Mode Protocol (encryption, replaces AES-CCMP)
+   - GMAC = Galois Message Authentication Code (integrity verification)
+   - MIC = Message Integrity Check (same concept as GMAC)
